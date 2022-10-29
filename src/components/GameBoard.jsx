@@ -12,7 +12,7 @@ export default function GameBoard(props){
             />
           </div>
           <div className='mt-5 flex'>
-            <div className="flex-1 md:border "></div>
+            <div className="flex-1"></div>
             <button className='md:mx-10 flex-1 h-10 my-4 md:my-0 rounded-md bg-[#CFB69A] hover:bg-[#ac957b] hover:text-white' onClick={props.rollDice}><span className='text-2xl font-chakraPetch font-bold text-[#584634]'>
               {!props.gameSet ? "Roll" :  "New Game"}</span>
             </button>

@@ -113,8 +113,8 @@ export default function App(){
   
   return (
     <>
-    <main className='w-screen h-screen relative bg-cover' style={backgroundStyle}>
     {gameSet && <Confetti/>}
+    <main className='w-screen h-screen relative bg-cover' style={backgroundStyle}>
       <div className='max-w-4xl w-64 md:w-5/6 h-fit md:h-4/5 rounded-xl bg-[#584634] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-md p-1 md:p-10'>
         <div className='w-full h-full bg-white rounded-md p-2 md:p-7 text-center flex flex-col'>
           <div className=''>
