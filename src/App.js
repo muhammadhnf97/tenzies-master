@@ -113,10 +113,10 @@ export default function App(){
   
   return (
     <>
-    {gameSet && <Confetti/>}
     <main className='w-screen h-screen relative bg-cover' style={backgroundStyle}>
-      <div className='max-w-4xl w-5/6 h-4/5 rounded-xl bg-[#584634] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-md p-3 md:p-10'>
-        <div className='w-full h-full bg-white rounded-md p-7 text-center flex flex-col'>
+    {gameSet && <Confetti/>}
+      <div className='max-w-4xl w-64 md:w-5/6 h-fit md:h-4/5 rounded-xl bg-[#584634] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-md p-1 md:p-10'>
+        <div className='w-full h-full bg-white rounded-md p-2 md:p-7 text-center flex flex-col'>
           <div className=''>
             <h1 className='text-5xl font-chakraPetch font-bold mb-2'>Tenzies Game</h1>
             <p className='text-xl font-chakraPetch mb-2'>Pilih angka yang sama, Jika tidak ada Rolls agar dapat angka yang sama.</p>
